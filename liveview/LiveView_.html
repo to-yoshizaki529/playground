@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>Live View</title>
+  <link rel="stylesheet" href="contents/styleA.css">
+</head>
+<body>
+    <button id="guide_change" onclick="GuideChangeClick()">-></button>
+    <div id="wrapper">
+        <div id="video_wrapper">
+            <div id="guide">
+                <img id="image" src="">
+                <img id="frame" src="">
+                <img id="loading" src="./img/loading.gif" style="display: none;">
+            </div>
+            <video id="video" style="-webkit-transform: scaleX(-1);"></video>
+        </div>
+        <div id="message_area" class="message2">
+            <div id="message"><span>顔を枠内に<BR>入れてください</span></div>
+            <!-- <div id="message"><span>画面から１歩<br>離れてください</span></div> -->
+        </div>
+        <div id="footer">
+            <div id="footer_user"><span></span></div>
+        </div>
+    </div>
+    <div id="key_select_wrapper">
+        <img id="key_select_image" src="./img/key_select.png">
+    </div>
+
+    <script>
+        var patternId = "A";
+        var outFrameSrc = "";
+        var frameStandbySrc = "./img/corner/Liveview_guide_90cm.png";
+        var frameAuthSrc    = "./img/corner/Liveview_guide_90cm.png";
+        
+        var anime_frame_max_num = 85;   // 5.6秒
+        var anime_file_path = "./img/anime/Anime_attention_90cm/Anime_attention_90cm_";
+        var anime_pattern = "blink_front";
+
+        var auth_anime_frame_max_num = 15;
+        var auth_anime_file_path = "./img/anime/auth/Anime_whiteout_";
+
+        var noMessage = true;
+    </script>
+
+    <script src="contents/main.js"></script>
+</body>
+</html>
