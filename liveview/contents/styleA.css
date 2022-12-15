@@ -48,8 +48,8 @@ body {
     margin: 0 216px;
 }
 #video {
-    height: 720px;
-    clip-path: polygon(55px 0, 485px 0, 485px 720px, 55px 720px);
+    /* height: 720px; */
+    /* clip-path: polygon(55px 0, 485px 0, 485px 720px, 55px 720px); */
     /* clip-path: polygon(264px 0, 744px 0, 744px 720px, 264px 720px); */
 }
 #message_area {
