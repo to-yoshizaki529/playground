@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 #wrapper {
-    width: 514px;
+    width: 634px;
     height: 800px;
     margin: 0 auto;
 }
@@ -48,9 +48,9 @@ body {
     margin: 0 216px;
 }
 #video {
-    /* margin-left: 200px; */
+    margin-left: 200px;
     height: 720px;
-    clip-path: polygon(25px 0, 475px 0, 475px 720px, 25px 720px);
+    clip-path: polygon(0px 0, 475px 0, 475px 720px, 0px 720px);
     /* clip-path: polygon(264px 0, 744px 0, 744px 720px, 264px 720px); */
 }
 #message_area {
