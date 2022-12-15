@@ -48,9 +48,9 @@ body {
     margin: 0 216px;
 }
 #video {
-    margin-left: 250px;
+    margin-left: 200px;
     height: 720px;
-    clip-path: polygon(55px 0, 435px 0, 435px 720px, 55px 720px);
+    clip-path: polygon(55px 0, 455px 0, 455px 720px, 55px 720px);
     /* clip-path: polygon(264px 0, 744px 0, 744px 720px, 264px 720px); */
 }
 #message_area {
