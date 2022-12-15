@@ -50,7 +50,7 @@ body {
 #video {
     margin-left: 200px;
     height: 720px;
-    clip-path: polygon(55px 0, 455px 0, 455px 720px, 55px 720px);
+    clip-path: polygon(25px 0, 475px 0, 475px 720px, 25px 720px);
     /* clip-path: polygon(264px 0, 744px 0, 744px 720px, 264px 720px); */
 }
 #message_area {
