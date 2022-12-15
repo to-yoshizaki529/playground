@@ -28,8 +28,8 @@ var auth_anime_frame_count = 0;
 // 初期処理
 window.onload = function()
 {    
-    var psl = document.getElementById('pattern_select_list');
-    psl.insertAdjacentHTML('beforeend', '<button id="guide_change" onclick="GuideChangeClick()">-></button>');
+    // var psl = document.getElementById('pattern_select_list');
+    // psl.insertAdjacentHTML('beforeend', '<button id="guide_change" onclick="GuideChangeClick()">-></button>');
     
     document.getElementById("image").src = outFrameSrc;
 
